@@ -28,8 +28,8 @@ const client = createClient({
   }
 });
 
-// console.log(await client.getUsers());
-// console.log(await client.getUser(23));
+console.log(await client.getUsers());
+console.log(await client.getUser(23));
 
 // try {
 //   console.log(await client.login({
