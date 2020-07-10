@@ -44,3 +44,4 @@ Creates a REST client with one or more functions. Takes an object whose keys are
 - `method`: The HTTP method to use for the request.
 - `url`: A URL template. Parameter names are enclosed in curly braces.
 - `defaults`: An object containing default values for the expected options.
+- `headers`: An object containing the HTTP headers that should be sent with the request.
